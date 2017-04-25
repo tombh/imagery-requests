@@ -214,7 +214,7 @@ var Home = React.createClass({
             </div>
             {allowedUser ? (
             <div className='section__actions'>
-              <Link to='/imagery-search' className='button-add-request'><span>Add request</span></Link>
+              <Link to='/search' className='button-add-request'><span>Add request</span></Link>
             </div>
             ) : null}
             <div className='section__stats'>
